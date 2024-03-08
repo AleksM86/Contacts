@@ -26,6 +26,7 @@ public class ParseFile {
         }
         return contactsInMap;
     }
+
     private static Contact createContactFromLine(String line){
         String [] varContact = line.split(";");
         Contact contact = new Contact();

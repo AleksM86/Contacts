@@ -4,7 +4,6 @@ import java.util.*;
 
 public class ContactsManagement {
 
-
     void showContacts(Map<String, Contact> contactsInMap) {
         Collection<Contact> contactsInSet = contactsInMap.values();
         for (Contact contact : contactsInSet) {
