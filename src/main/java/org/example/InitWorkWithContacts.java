@@ -26,6 +26,7 @@ public class InitWorkWithContacts implements StartWork {
         System.out.println("show - показать контакты");
         System.out.println("add - добавить контакт");
         System.out.println("delete - удаляет контакт");
+        System.out.println("stop - останавливает работу программы");
     }
 
     private void usersCommand() {
